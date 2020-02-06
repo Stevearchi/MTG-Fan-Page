@@ -3,3 +3,31 @@
     font-family: 'Abril Fatface', cursive, 'Franklin Gothic Medium', 'Arial Narrow', 
     Arial, sans-serif;
 }
+img {
+    width:300px !important;
+}
+
+
+@media screen and (max-width:1024px) {
+    img {
+        width:250px !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    img {
+        width:200px !important;      
+    }
+}
+
+@media screen and (max-width:320px) {
+    img {
+        width:150px !important;
+    }
+}
+
+@media screen and (max-width:168px) {
+    img {
+        width:100px !important;
+    }
+}
